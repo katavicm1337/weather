@@ -6,7 +6,7 @@ from urllib.request import urlopen
 
 f = open("ime_grada.txt", "r")
 BASE_URL = "http://api.weatherapi.com/v1/current.json?key="
-API = "0373df03caa84bad9c2205803231312&q="
+API = ""
 GRAD = f.read()
 TAGS = "&aqi=yes"
 
